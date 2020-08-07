@@ -6,3 +6,5 @@ Then try to execute this:
 `sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ ``lsb_release -cs``-pgdg main" >> /etc/apt/sources.list.d/pgdg.list' ` 
 
 And run the script again.
+
+Run updateDebianToStretch.sh first to update the OS then run the Kernel update script
